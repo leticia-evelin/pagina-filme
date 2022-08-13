@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 75px;
+    background-color:paleturquoise;
+}
+
+.logo{
+    height: 80px;
+}
+
+main{
+    display:flex;
+    flex-direction:column;
+    background-color:paleturquoise;
+    padding-top: 30px;
+    align-items:center;
+    gap: 40px;
+
+   }
+
+
+   .foto-filme{
+     width: 700px;
+    }
+
+   .titulo {
+     font-size: 32px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .titulo{
+     color:royalblue;
+    }
+
+    .subtitulo{
+     color:royalblue;
+    }
+
+    .info{
+    font-size:20px;
+    color:black;
+     }
+
+    .descrição{
+        color: royalblue;
+    }
+
+    .intro-container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+    }
+
+   .filmes-container{
+     width: 250px;
+
+    }
+
+   .filmes-container ul{
+     flex-direction: column;
+
+    }
+    
+   .sinopse{
+     align-items:center;
+     font-size:16px;
+    
+    }
+   
+   .rodapé {
+     background-color:paleturquoise;
+     width: 1000 ;
+    }
+
+    .rodapé{
+    display: flex;
+    justify-items:right;
+    
+    }
+
+   

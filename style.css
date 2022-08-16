@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin:0;
 }
 
 header{
@@ -79,7 +79,9 @@ main{
 
     .rodapé{
     display: flex;
+    flex-direction: row-reverse;
     justify-items:right;
+    padding-right: 25px;
     
     }
 

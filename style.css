@@ -3,6 +3,9 @@
     margin:0;
 }
 
+body{
+  background-color: paleturquoise;
+}
 header{
     height: 75px;
     background-color:paleturquoise;
@@ -15,14 +18,16 @@ header{
 main{
     display:flex;
     flex-direction:column;
-    background-color:paleturquoise;
     padding-top: 30px;
     align-items:center;
     gap: 40px;
 
    }
 
-
+   :root{
+     --primary-color: paleturquoise;
+     --space-defaut:70px;
+   }
    .foto-filme{
      width: 700px;
     }
@@ -68,6 +73,7 @@ main{
     
    .sinopse{
      align-items:center;
+     width: 700px;
      font-size:16px;
     
     }
@@ -84,5 +90,85 @@ main{
     padding-right: 25px;
     
     }
+    .action{
+      place-self: center end;
+      display: flex;
+      align-items: center;
+    }
 
+    @media (max-width: 960px){
+      main{ 
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .titulo {
+        font-size: 30px;
+       }
+
+       .info{
+        font-size: 18px;
+       }
+
+      .titulo {
+        place-self: center;
+      }
+
+      :root{
+        --space-defaut: 30px;
+      }
+
+      .descrição{
+        place-self: center;
+        text-align: center;
+      }
+
+      .foto-filme{
+        width: 600px;
+      }
+ 
+      .sinopse{
+        display: flex;
+        place-self: center;
+      }
+      .rodapé{
+        display: none;
+      }
+
+      
+      }
+
+   @media (max-width: 640px){
+
+    .titulo {
+      font-size: 28px;
+     }
+     .info{
+      font-size: 16px;
+     }
+    .logo{
+      transform: translate(20%, -20%);
+    }
+
+    .descrição{
+      display: none;
+    }
+
+    .foto-filme{
+      width: 500px;
+    }
+
+    .sinopse{
+      display: none;
+    }
+
+    .filmes-container{
+      width: 200px;
+    }
+   }
+
+
+
+
+
+    
    

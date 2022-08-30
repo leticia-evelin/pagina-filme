@@ -154,7 +154,7 @@ main{
     }
 
     .foto-filme{
-      width: 500px;
+      width: 100px;
     }
 
     .sinopse{
@@ -162,7 +162,8 @@ main{
     }
 
     .filmes-container{
-      width: 200px;
+      width: 150px;
+      font-size: smaller;
     }
    }
 

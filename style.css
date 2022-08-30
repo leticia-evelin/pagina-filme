@@ -113,8 +113,6 @@ main{
         place-self: center;
       }
 
-      :root{
-        --space-defaut: 30px;
       }
 
       .descrição{
@@ -137,7 +135,10 @@ main{
       
       }
 
-   @media (max-width: 700px){
+   @media (max-width: 650px){
+    .logo{
+      transform: translate(20%, -20%);
+    }
 
     .titulo {
       font-size: 28px;
@@ -145,16 +146,13 @@ main{
      .info{
       font-size: 16px;
      }
-    .logo{
-      transform: translate(20%, -20%);
-    }
-
+  
     .descrição{
       display: none;
     }
 
     .foto-filme{
-      width: 100px;
+      width: 250px;
     }
 
     .sinopse{
